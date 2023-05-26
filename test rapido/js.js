@@ -1,133 +1,133 @@
 const quizData = [
     {
         question: "👄TERAPIA DE LENGUAJE👄",
-        question2:"Entiendes lo que dice tu niño/a?",
+        question2:"¿Comprendes lo que dice tu niño/a?",
         a: "SI",
         b: "NO",
         correct: "b",
     },
     {
         question: "😄😛TERAPIA MIOFUNCIONAL😄😛",
-        question2:"Su niño/a permanece con la boca abierta o con la lengua a fuera de la boca frecuentemente?",
+        question2:"¿Su niño/a permanece con la boca abierta o con la lengua a fuera de la boca frecuentemente?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "👄TERAPIA DE LENGUAJE👄",
-        question2:"Su niño/a tiene dificultades para comprender lo que lee?",
+        question2:"¿Su niño/a tiene dificultades para comprender lo que lee?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "😄😛TERAPIA MIOFUNCIONAL😄😛",
-        question2:"Su niño/a respira con la boca abierta, babea o ronca?",
+        question2:"¿Su niño/a respira con la boca abierta, babea o ronca?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "👄TERAPIA DE LENGUAJE👄",
-        question2:"Su niño/a omite o agrega sonidos a las palabras cuando habla?",
+        question2:"¿Su niño/a omite o agrega sonidos a las palabras cuando habla?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "😄😛TERAPIA MIOFUNCIONAL😄😛",
-        question2:"Su niño/a mastica con la boca abierta o necesita tomar liquido para tragar el alimento?",
+        question2:"¿Su niño/a mastica con la boca abierta o necesita tomar liquido para tragar el alimento?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "👄TERAPIA DE LENGUAJE👄",
-        question2:"Su niño/a no habla o habla muy poco despues de los 2 años?",
+        question2:"¿Su niño/a no habla o habla muy poco después de los 2 años?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "😄😛TERAPIA MIOFUNCIONAL😄😛",
-        question2:"Su niño/a se pasa los alimentos enteros por ende no los mastica?",
+        question2:"¿Su niño/a se pasa los alimentos enteros?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "👄TERAPIA DE LENGUAJE👄",
-        question2:"Su niño/a tiene dificultad para leer o escribir correctamente?",
+        question2:"¿Su niño/a tiene dificultad para leer o escribir correctamente?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "😄😛TERAPIA MIOFUNCIONAL😄😛",
-        question2:"Su niño/a utiliza chupo u otro objeto que se lleve a la boca por tiempos prolongados?",
+        question2:"¿Su niño/a utiliza chupo u otro objeto que se lleve a la boca por tiempos prolongados?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "👄TERAPIA DE LENGUAJE👄",
-        question2:"Su niño/a tiene dificultades para pronunciar o producir algunos sonidos?",
+        question2:"¿Su niño/a tiene dificultades para producir algunos sonidos?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "😄😛TERAPIA MIOFUNCIONAL😄😛",
-        question2:"Su niño/a presenta dificultad al comer alimentos solidos, blandos o liquidos?",
+        question2:"¿Su niño/a presenta dificultad al comer alimentos solidos, blandos o líquidos?",
         a: "SI",
         b: "NO",
         correct: "a",
-    },
-    {
+    }, 
+   {
         question: "👄TERAPIA DE LENGUAJE👄",
-        question2:"Su niño/a manifiesta mala audicion ya sea muy poco o mucho volumen?",
+        question2:"¿Su niño/a presenta baja audición mediantes estímulos diferentes?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "😄😛TERAPIA MIOFUNCIONAL😄😛",
-        question2:"Su medigo diasnostico disfagia a su niño/a?",
+        question2:"¿Su niño/a es diasnosticado con disfagia (proceso de alimentación)?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "👄TERAPIA DE LENGUAJE👄",
-        question2:"Su niño/a no demuestra intencion de comunicarse con las demas personas?",
+        question2:"¿Su niño/a no demuestra intención comunicativa con las demas personas?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "😄😛TERAPIA MIOFUNCIONAL😄😛",
-        question2:"Su niño/a tiene dificultades en la succión del chupo o dle seno?",
+        question2:"¿Su niño/a tiene dificultades en la succión?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "👄TERAPIA DE LENGUAJE👄",
-        question2:"Su niño/a tartamudea frecuentemente?",
+        question2:"¿Su niño/a tartamudea frecuentemente?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "😄😛TERAPIA MIOFUNCIONAL😄😛",
-        question2:"Su niño/a derrama alimentos o liquidos por el borde de la boca?",
+        question2:"¿Su niño/a derrama alimentos o líquidos por la comisura de la boca?",
         a: "SI",
         b: "NO",
         correct: "a",
     },
     {
         question: "👄TERAPIA DE LENGUAJE👄",
-        question2:"Su niño/a se encuentra disfonico o con alteracion de la voz frecuentemente?",
+        question2:"Su niño/a se encuentra disfonico o con alteración de la voz frecuentemente?",
         a: "SI",
         b: "NO",
         correct: "a",
@@ -176,10 +176,25 @@ submitBtn.addEventListener('click', () => {
            loadQuiz()
        } 
        else {
-           quiz.innerHTML = `
-           <h2>Respondiste ${score}/${quizData.length}preguntas positivas</h2>
-           <button onclick="location.reload()">continuar</button>
+           function redireccionar() {
+            window.location.href = "/login";
+          }
+          let porcentaje = (score*100)/quizData.length;
+          quiz.innerHTML = `
+           <h2>Respondiste ${score}/${quizData.length}preguntas positivas
+           <p >Según tu puntaje de respuestas positivas tienes ${parseInt( porcentaje)}% de probabilidades
+           de necesitar ayuda de un profesional en fonoaudiologia, ¿Quieres dirigirte con uno de ellos? </p>
+           </h2>
+           <button onclick="location.redirecciona()"">continuar</button> 
            `
+          // Llamada a la función para redireccionar después de 5 segundos (5000 milisegundos)
+          setTimeout(redireccionar,50);
        }
+    //    res.innerHTML=  `<a>Según tu puntaje de respuestas positivas tienes ${parseInt( porcentaje)}% de probabilidades
+    //    de necesitar ayuda de un profesional en fonoaudiologia, ¿Quieres dirigirte con uno de ellos? </a>`
+
+    //    let res = confirm(`Según tu puntaje de respuestas positivas tienes ${parseInt( porcentaje)}% de probabilidades
+    //     de necesitar ayuda de un profesional en fonoaudiologia, ¿Quieres dirigirte con uno de ellos?`);
     }
 })
+/** <button onclick="location.reload()" onclick="/Login.reload()">continuar</button> */
