@@ -1,9 +1,36 @@
-/* coding with nick */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
-*{
-  box-sizing: border-box;
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+  }
+
+  .quiz-container2 {
+      order: -1; /* Coloca quiz-container2 al principio */
+      margin-bottom: 2%; /* Agrega un espacio entre quiz-container2 y quiz-container */
+  }
+
+  .quiz-container,
+  .quiz-container2 {
+      width: 90%;
+      max-width: 90%;
+  }
+
+  ul li {
+      font-size: 2.5vw; /* Ajusta el tamaño de fuente para las opciones */
+      margin: 3vw 0; /* Ajusta el margen entre las opciones */
+  }
+
+  button {
+      font-size: 1.8vw; /* Ajusta el tamaño de fuente para los botones */
+      padding: 2vw; /* Ajusta el padding para los botones */
+  }
 }
-body{
+
+/* Estilos generales */
+body {
   background-color: #b8c6db;
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
   font-family: 'Poppins', sans-serif;
@@ -16,85 +43,80 @@ body{
   position: relative;
   z-index: 2;
 }
-.quiz-container{
+
+.quiz-container,
+.quiz-container2 {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px 2px rgba(4, 98, 110, 0.774);
-  width: 600px;
+  width: 90%;
+  max-width: 600px;
   overflow: hidden;
   position: relative;
   z-index: 2;
+  margin: 2%;
 }
-.quiz-container2{
+
+.quiz-container2 {
   background-color: rgba(255, 255, 255, 0.582);
-  border-radius: 10px;
-  padding:2%;
-  box-shadow: 0 0 10px 2pxrgba(4, 98, 110, 0.774);
-  width: 500px;
-  overflow: hidden;
-  position: relative;
-  z-index: 2;
+  padding: 2%;
+  max-width: 500px;
 }
-.quiz-header{
-  padding: 4rem;
+
+.quiz-header {
+  padding: 4vw;
 }
-h2{
-  padding: 1rem;
+
+h2,
+h3 {
+  padding: 1vw;
   text-align: center;
   margin: 0;
 }
-h3{
-    padding: 1rem;
-    margin: 0;
-  }
-ul{
+
+ul {
   list-style-type: none;
   padding: 0;
 }
-ul li{
-  font-size: 1.2rem;
-  margin: 1rem 0;
-  cursor: pointer;
-}
-ul li label{
-  cursor: pointer;
-}
-button{
+
+button {
   background-color: #073e46ee;
   color: #fff;
   border: none;
   display: block;
   width: 100%;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1.5vw; /* Tamaño de fuente de botones para dispositivos grandes */
   font-family: inherit;
-  padding: 1.3rem;
+  padding: 1.8vw; /* Padding de botones para dispositivos grandes */
 }
-button:hover{
+
+button:hover {
   background-color: #04adc4;
 }
-button:focus{
+
+button:focus {
   outline: none;
   background-color: #073e46ee;
 }
 
-#hero{
+#hero {
   min-height: 100vh;
   position: relative;
 }
 
-video{
-  position:absolute;
-  top:0;
+video {
+  position: absolute;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.capa{
-  position:absolute;
-  top:0;
+.capa {
+  position: absolute;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
