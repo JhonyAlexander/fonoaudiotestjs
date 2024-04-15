@@ -3,14 +3,19 @@ body {
   color: #fff;
   padding: 0;
   margin: 0;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-   flex-direction:column;
+  flex-direction: column;
+}
+
+.map-container {
+  text-align: center; /* Centra horizontalmente el mapa */
 }
 
 img {
+  max-width: 90%; /* Ajusta el tamaño máximo del mapa */
+  height: auto; /* Permite que la altura se ajuste automáticamente */
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -19,5 +24,19 @@ img {
 }
 
 p {
-  display: block;
+  font-size: 1.5em; /* Ajusta el tamaño de fuente del mensaje de distancia */
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (min-width: 768px) {
+  img {
+    max-width: 95%; /* Ancho máximo para dispositivos móviles */
+  }
+}
+
+/* Estilos específicos para dispositivos de escritorio */
+@media (min-width: 1024px) {
+  img {
+    max-width: 30%; /* Ancho máximo para dispositivos de escritorio */
+  }
 }
